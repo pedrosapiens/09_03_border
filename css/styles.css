@@ -1,0 +1,31 @@
+.caja-1 {
+    width: 400px;
+    height: 200px;
+    margin: 40px auto; /* Centrado de un elemento*/
+    border: 4px solid orange;
+}
+
+.caja-2 {
+    width: 400px;
+    height: 200px;
+    margin: 40px auto; /* Centrado de un elemento*/
+    border-color: blue red green orange;
+    border-width: 10px 8px 12px 6px;
+    border-style: solid dotted dashed double;
+}
+
+.caja-3 {
+    width: 400px;
+    height: 200px;
+    margin: 40px auto; /* Centrado de un elemento*/
+    background-color: orchid;
+    /* border-radius: 15px; Mismo valor todas las esquinas*/
+    border-radius: 15px 15px 0 0; /* Sup izda. | Sup. dcha. | Inf. dcha. | Inf. izda.*/
+}
+
+.redonda {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    border: 4px solid crimson;
+}
